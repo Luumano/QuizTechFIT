@@ -9,8 +9,23 @@
 </head>
 <body>
     <div class="main-container" id="main-container">
-        <div id="leaderboard-container-side" class="screen">
-            <h2><img class="logo" src="imagens/FIT_24.png" alt="Logo do Quiz"> Placar de Líderes</h2>
+        <div id="start-screen" class="screen">
+            <div class="logo-container">
+                <img class="logo" src="imagens/FIT_24.png" alt="Logo do Quiz">
+                <img src="imagens/sebrae.png" alt="Logo do Sebrae" class="sebrae-logo">
+            </div>
+            <h2>Bem-vindo ao Quiz!</h2>
+            <p>Digite seu nome para começar:</p>
+            <input type="text" id="player-name-input" placeholder="Seu nome">
+            <button id="start-button">Começar</button>
+        </div>
+
+                <div id="leaderboard-container-side" class="screen">
+            <div class="logo-container">
+                <img class="logo" src="imagens/FIT_24.png" alt="Logo do Quiz">
+                <img src="imagens/sebrae.png" alt="Logo do Sebrae" class="sebrae-logo">
+            </div>
+            <h2> Placar de Líderes</h2>
             <div class="leaderboard-content-wrapper">
                 <table id="leaderboard-side">
                     <thead>
@@ -25,14 +40,6 @@
                 </table>
             </div>
             <button id="refresh-leaderboard">Atualizar Placar</button>
-        </div>
-
-        <div id="start-screen" class="screen">
-            <img src="imagens/FIT_24.png" alt="Logo do Quiz" class="logo">
-            <h2>Bem-vindo ao Quiz!</h2>
-            <p>Digite seu nome para começar:</p>
-            <input type="text" id="player-name-input" placeholder="Seu nome">
-            <button id="start-button">Começar</button>
         </div>
     </div>
 
@@ -54,11 +61,16 @@
     </div>
 
     <div id="result-container" class="screen" style="display: none;">
+                    
+            <div class="logo-container">
+                <img class="logo" src="imagens/FIT_24.png" alt="Logo do Quiz">
+                <img src="imagens/sebrae.png" alt="Logo do Sebrae" class="sebrae-logo">
+            </div>
         <h2>Fim de Jogo!</h2>
         <p>Sua pontuação final é: <span id="final-score"></span></p>
         <button id="restart-button">Novo Jogador</button>
         <hr>
-        <h3><img class="logo" src="imagens/FIT_24.png" alt="Logo do Quiz"> Placar de Líderes</h3>
+        <h3>Placar de Líderes</h3>
         <div class="leaderboard-content-wrapper">
             <table id="leaderboard-endgame">
                 <thead>
@@ -76,5 +88,9 @@
 
     <script type="module" src="js/data.js"></script>
     <script type="module" src="js/script.js"></script>
+
+    <footer>
+        
+    </footer>
 </body>
 </html>
