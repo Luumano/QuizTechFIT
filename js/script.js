@@ -62,7 +62,9 @@ function startGame() {
     mainContainer.style.display = 'none';
     showScreen(quizContainer);
 
-    shuffledQuestions = shuffleArray(questions);
+    // --- MUDANÇA AQUI: Embaralha as perguntas e pega apenas as primeiras 20 ---
+    shuffledQuestions = shuffleArray(questions).slice(0, 20);
+    
     currentQuestionIndex = 0;
     score = 0;
     skipCount = 2;
