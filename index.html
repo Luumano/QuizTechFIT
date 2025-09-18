@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Game</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="imagens/FIT_24.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/logo_fit25.png" type="image/x-icon">
 </head>
 <body>
     <div class="main-container" id="main-container">
         <div id="start-screen" class="screen">
             <div class="logo-container">
-                <img class="logo" src="imagens/FIT_24.png" alt="Logo do Quiz">
-                <img src="imagens/sebrae.png" alt="Logo do Sebrae" class="sebrae-logo">
+                <img class="logo" src="imagens/realizacao.png" alt="Logo do Quiz">
             </div>
-            <h2>Bem-vindo ao Quiz!</h2>
+            <h2>Bem-vindo ao Quiz do FIT 2025!</h2>
             <p>Digite seu nome para começar:</p>
             <input type="text" id="player-name-input" placeholder="Seu nome">
             <button id="start-button">Começar</button>
@@ -22,8 +21,7 @@
 
                 <div id="leaderboard-container-side" class="screen">
             <div class="logo-container">
-                <img class="logo" src="imagens/FIT_24.png" alt="Logo do Quiz">
-                <img src="imagens/sebrae.png" alt="Logo do Sebrae" class="sebrae-logo">
+                <img class="logo" src="imagens/realizacao.png" alt="Logo do Quiz">
             </div>
             <h2> Placar de Líderes</h2>
             <div class="leaderboard-content-wrapper">
@@ -58,14 +56,12 @@
             <button id="help-button">Ajuda (<span id="help-count">2</span>)</button>
             <button id="skip-button">Pular (<span id="skip-count">2</span>)</button>
         </div>
+          <div class="logo-container">
+                <img class="logo" src="imagens/realizacao.png" alt="Logo do Quiz">
+            </div>
     </div>
 
     <div id="result-container" class="screen" style="display: none;">
-                    
-            <div class="logo-container">
-                <img class="logo" src="imagens/FIT_24.png" alt="Logo do Quiz">
-                <img src="imagens/sebrae.png" alt="Logo do Sebrae" class="sebrae-logo">
-            </div>
         <h2>Fim de Jogo!</h2>
         <p>Sua pontuação final é: <span id="final-score"></span></p>
         <button id="restart-button">Novo Jogador</button>
@@ -84,6 +80,9 @@
                 </tbody>
             </table>
         </div>
+            <div class="logo-container-endgame">
+                <img class="logo-endgame" src="imagens/realizacao.png" alt="Logo do Quiz">
+            </div>
     </div>
 
     <script type="module" src="js/script.js"></script>
