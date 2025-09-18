@@ -59,5 +59,36 @@ Para rodar o projeto localmente, siga estes passos simples:
 ---
 
 ## 📂 Estrutura de Arquivos
+quiztech/
+├── index.html
+├── style.css
+├── script.js
+└── data.js
+
+
+* `index.html`: O arquivo principal da aplicação.
+* `style.css`: Folha de estilos para o layout e design.
+* `script.js`: Toda a lógica e funcionalidades do jogo.
+* `data.js`: O array de objetos contendo todas as perguntas e respostas.
+
+---
+
+## 💡 Próximos Passos (Possíveis Melhorias)
+
+* Adicionar diferentes categorias de perguntas para o usuário escolher.
+* Incluir efeitos sonoros para eventos do jogo (acerto, erro, contagem regressiva).
+* Implementar um sistema de dificuldade.
+* Adicionar um modo multiplayer para desafiar amigos online.
+
+---
+
+## ✍️ Créditos
+
+Este projeto foi desenvolvido para ser utilizado no Fórum de Inovação e Tecnologia - FIT, realizado na Universidade Federal do Ceará - Campus Crateús.
+
+**Fonte Utilizada:**
+* [Poppins - Google Fonts](https://fonts.google.com/specimen/Poppins)
+
+
 
 A estrutura do projeto é simples e organizada para facilitar a manutenção:
