@@ -377,6 +377,27 @@ footer {
     color: var(--text-paragraph);
 }
 
+.difficulty-options {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: var(--text-paragraph);
+}
+.difficulty-options h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.difficulty-options label {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
 /* === Responsividade === */
 @media (max-width: 992px) {
     .main-container {
