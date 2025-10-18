@@ -11,6 +11,7 @@
     --bg-screen: #222222; /* Novo: Fundo das telas um pouco mais claro */
     --text-light: #E0E0E0;
     --text-paragraph: #B0B0B0; /* Novo: Cinza mais suave para texto */
+    --reset: #910000;
 }
 
 /* === Reset e Layout Global === */
@@ -310,6 +311,37 @@ button:disabled {
     width: 100%;
 }
 
+/* === Estilização Específica para o Botão de Resetar Placar === */
+
+#reset-leaderboard-button {
+    /* Cor de fundo para indicar AVISO/DESTRUTIVO */
+    background-color: #CC0000; /* Um vermelho forte */
+    color: var(--text-light); /* Texto branco ou cinza claro */
+    
+    /* Herda o estilo base de botão */
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px; /* Espaçamento da tabela ou de outros elementos */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#reset-leaderboard-button:hover {
+    /* Escurece levemente no hover */
+    background-color: #990000;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* Opcional: Se quiser que ele se alinhe ao lado dos outros botões na lateral */
+#leaderboard-container-side button {
+    width: 100%; /* Para que todos os botões na lateral tenham a mesma largura */
+    margin-bottom: 10px;
+}
+
 #leaderboard-side {
     width: 100%;
     border-collapse: collapse;
@@ -344,7 +376,7 @@ button:disabled {
 }
 
 #refresh-leaderboard:hover {
-    background-color: var(--azul);
+    background-color: #075d32;
     color: var(--text-light);
 }
 

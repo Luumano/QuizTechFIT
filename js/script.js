@@ -11,6 +11,7 @@ const playerNameInput = document.getElementById('player-name-input');
 const startButton = document.getElementById('start-button');
 const restartButton = document.getElementById('restart-button');
 const refreshLeaderboardButton = document.getElementById('refresh-leaderboard');
+const resetLeaderboardButton = document.getElementById('reset-leaderboard-button'); // Botão Resetar
 
 const questionText = document.getElementById('question-text');
 const optionsContainer = document.getElementById('options-container');
@@ -32,7 +33,7 @@ let score = 0;
 let skipCount = 2;
 let helpCount = 2;
 let timerId;
-const TIME_LIMIT = 10;
+const TIME_LIMIT = 10; // Voltou a ser 'const'
 let leaderboardData = JSON.parse(localStorage.getItem('leaderboard')) || [];
 let shuffledQuestions = [];
 
@@ -62,7 +63,7 @@ function startGame() {
     mainContainer.style.display = 'none';
     showScreen(quizContainer);
 
-    // --- MUDANÇA AQUI: Embaralha as perguntas e pega apenas as primeiras 20 ---
+    // Embaralha as perguntas e pega apenas as primeiras 20
     shuffledQuestions = shuffleArray(questions).slice(0, 20);
     
     currentQuestionIndex = 0;
@@ -119,6 +120,9 @@ function startTimer() {
 function handleAnswer(selectedOption) {
     clearInterval(timerId);
     const currentQuestion = shuffledQuestions[currentQuestionIndex];
+    
+    // Feedback visual (classes correct/incorrect no CSS) pode ser adicionado aqui, se necessário.
+    
     if (selectedOption === currentQuestion.correctAnswer) {
         score++;
         scoreDisplay.textContent = score;
@@ -151,6 +155,7 @@ function handleHelp() {
         const buttons = Array.from(optionsContainer.querySelectorAll('.option-button'));
         const incorrectButtons = buttons.filter(btn => btn.textContent !== correct);
         if (incorrectButtons.length > 1) {
+            // Remove apenas uma opção incorreta
             const randomIndex = Math.floor(Math.random() * incorrectButtons.length);
             incorrectButtons[randomIndex].remove();
         }
@@ -191,6 +196,19 @@ function shuffleArray(array) {
     return newArray;
 }
 
+// --- Função para Resetar Placar de Líderes (Mantida) ---
+function resetLeaderboard() {
+    // Confirmação para evitar exclusão acidental
+    if (confirm('Tem certeza que deseja apagar permanentemente todo o placar de líderes? Esta ação não pode ser desfeita.')) {
+        localStorage.removeItem('leaderboard');
+        leaderboardData = []; // Limpa os dados em memória
+        alert('Placar de líderes resetado com sucesso!');
+        // Atualiza ambas as tabelas
+        displayLeaderboard(leaderboardTableBodySide);
+        displayLeaderboard(leaderboardTableBodyEndgame);
+    }
+}
+
 // --- Adicionar Event Listeners ---
 startButton.addEventListener('click', startGame);
 restartButton.addEventListener('click', restartGame);
@@ -198,6 +216,11 @@ refreshLeaderboardButton.addEventListener('click', () => {
     leaderboardData = JSON.parse(localStorage.getItem('leaderboard')) || [];
     displayLeaderboard(leaderboardTableBodySide);
 });
+
+// Adiciona listener para o botão Resetar
+if (resetLeaderboardButton) {
+    resetLeaderboardButton.addEventListener('click', resetLeaderboard);
+}
 
 helpButton.addEventListener('click', handleHelp);
 skipButton.addEventListener('click', handleSkip);
