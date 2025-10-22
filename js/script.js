@@ -68,7 +68,7 @@ function startGame() {
     
     currentQuestionIndex = 0;
     score = 0;
-    skipCount = 3;
+    skipCount =3;
     helpCount = 3;
     scoreDisplay.textContent = score;
     helpCountDisplay.textContent = helpCount;
