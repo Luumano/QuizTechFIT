@@ -30,8 +30,8 @@ const leaderboardTableBodyEndgame = document.querySelector('#leaderboard-endgame
 let currentPlayerName = '';
 let currentQuestionIndex = 0;
 let score = 0;
-let skipCount = 2;
-let helpCount = 2;
+let skipCount = 3;
+let helpCount = 3;
 let timerId;
 const TIME_LIMIT = 10; // Voltou a ser 'const'
 let leaderboardData = JSON.parse(localStorage.getItem('leaderboard')) || [];
@@ -68,8 +68,8 @@ function startGame() {
     
     currentQuestionIndex = 0;
     score = 0;
-    skipCount = 2;
-    helpCount = 2;
+    skipCount = 3;
+    helpCount = 3;
     scoreDisplay.textContent = score;
     helpCountDisplay.textContent = helpCount;
     skipCountDisplay.textContent = skipCount;
