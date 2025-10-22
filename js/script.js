@@ -63,8 +63,8 @@ function startGame() {
     mainContainer.style.display = 'none';
     showScreen(quizContainer);
 
-    // Embaralha as perguntas e pega apenas as primeiras 25
-    shuffledQuestions = shuffleArray(questions).slice(0, 25);
+    // Embaralha as perguntas e pega apenas as primeiras 35
+    shuffledQuestions = shuffleArray(questions).slice(0, 35);
     
     currentQuestionIndex = 0;
     score = 0;
