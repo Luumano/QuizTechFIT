@@ -1766,4 +1766,704 @@ export const questions = [
     options: ["Um método para acelerar o processamento de dados.", "O processo de transformar informações em um formato ilegível para protegê-las.", "Um tipo de ataque cibernético.", "Uma forma de armazenar arquivos na nuvem."],
     correctAnswer: "O processo de transformar informações em um formato ilegível para protegê-las.",
   },
+  {
+        question: "Qual o principal objetivo da linguagem HTML?",
+        options: ["Estilizar páginas web.", "Definir a estrutura e o conteúdo de uma página web.", "Adicionar lógica de programação ao servidor.", "Gerenciar banco de dados."],
+        correctAnswer: "Definir a estrutura e o conteúdo de uma página web.",
+    },
+    {
+        question: "Em linguagens orientadas a objetos, o que é 'Herança'?",
+        options: ["O ato de criar uma nova instância de um objeto.", "Um mecanismo que permite que uma classe herde propriedades e métodos de outra classe.", "O processo de esconder detalhes de implementação.", "A capacidade de uma função ou método se comportar de diferentes maneiras."],
+        correctAnswer: "Um mecanismo que permite que uma classe herde propriedades e métodos de outra classe.",
+    },
+    {
+        question: "Qual é a estrutura de dados LIFO (Last In, First Out)?",
+        options: ["Fila (Queue)", "Lista Ligada (Linked List)", "Pilha (Stack)", "Árvore (Tree)"],
+        correctAnswer: "Pilha (Stack)",
+    },
+    {
+        question: "Qual protocolo é usado para enviar e-mails?",
+        options: ["HTTP", "FTP", "SMTP", "POP3"],
+        correctAnswer: "SMTP",
+    },
+    {
+        question: "O que significa a sigla 'API' em desenvolvimento de software?",
+        options: ["Advanced Programming Interface", "Application Protocol Integration", "Application Programming Interface", "Automated Process Interaction"],
+        correctAnswer: "Application Programming Interface",
+    },
+    {
+        question: "Qual a principal função do CSS?",
+        options: ["Criar a estrutura da página.", "Definir a lógica do servidor.", "Definir a apresentação e o estilo dos elementos HTML.", "Gerenciar o estado da aplicação."],
+        correctAnswer: "Definir a apresentação e o estilo dos elementos HTML.",
+    },
+    {
+        question: "O que o 'git' é usado para fazer?",
+        options: ["Executar código JavaScript no navegador.", "Gerenciar banco de dados.", "Controlar o versionamento de código-fonte.", "Compilar programas C++."],
+        correctAnswer: "Controlar o versionamento de código-fonte.",
+    },
+    {
+        question: "Em Python, o que o 'PEP 8' define?",
+        options: ["O padrão para a sintaxe de classes.", "As regras para a performance do código.", "O guia de estilo de código.", "O gerenciador de pacotes padrão."],
+        correctAnswer: "O guia de estilo de código.",
+    },
+    {
+        question: "O que é 'refatoração' de código?",
+        options: ["Adicionar novas funcionalidades ao código.", "Reescrever o código do zero.", "Melhorar a estrutura interna do código sem alterar seu comportamento externo.", "Remover bugs do código."],
+        correctAnswer: "Melhorar a estrutura interna do código sem alterar seu comportamento externo.",
+    },
+    {
+        question: "Em JavaScript, o que é o 'DOM'?",
+        options: ["Um método para manipular strings.", "Document Object Model, uma interface de programação para documentos HTML e XML.", "Um tipo de erro assíncrono.", "Uma estrutura de dados para armazenar pares de chave-valor."],
+        correctAnswer: "Document Object Model, uma interface de programação para documentos HTML e XML.",
+    },
+    {
+        question: "Qual é o principal uso do comando 'SELECT' em SQL?",
+        options: ["Inserir novos dados na tabela.", "Modificar dados existentes.", "Recuperar dados de uma ou mais tabelas.", "Excluir dados da tabela."],
+        correctAnswer: "Recuperar dados de uma ou mais tabelas.",
+    },
+    {
+        question: "Qual paradigma de programação se concentra em 'objetos' que contêm dados e métodos?",
+        options: ["Programação Funcional.", "Programação Orientada a Objetos (POO).", "Programação Estruturada.", "Programação Lógica."],
+        correctAnswer: "Programação Orientada a Objetos (POO).",
+    },
+    {
+        question: "Qual o significado da sigla 'IDE'?",
+        options: ["Integrated Design Environment", "Interactive Development Engine", "Integrated Development Environment", "Interface Designer Editor"],
+        correctAnswer: "Integrated Development Environment",
+    },
+    {
+        question: "O que é uma 'promessa' (Promise) em JavaScript?",
+        options: ["Um tipo especial de loop.", "Um objeto que representa a eventual conclusão ou falha de uma operação assíncrona.", "Uma função para manipular o DOM.", "Um novo tipo de dado primitivo."],
+        correctAnswer: "Um objeto que representa a eventual conclusão ou falha de uma operação assíncrona.",
+    },
+    {
+        question: "Qual o protocolo base para a navegação na web?",
+        options: ["FTP", "SMTP", "ICMP", "HTTP"],
+        correctAnswer: "HTTP",
+    },
+    {
+        question: "O que é um 'polyfill' em desenvolvimento web?",
+        options: ["Uma biblioteca de animação CSS.", "Um código que fornece funcionalidades modernas em navegadores antigos que não as suportam nativamente.", "Um tipo de cache de dados.", "Uma ferramenta de otimização de imagem."],
+        correctAnswer: "Um código que fornece funcionalidades modernas em navegadores antigos que não as suportam nativamente.",
+    },
+    {
+        question: "Qual linguagem é comumente usada para análise de dados e aprendizado de máquina?",
+        options: ["Ruby", "PHP", "Python", "C#"],
+        correctAnswer: "Python",
+    },
+    {
+        question: "O que é um 'bug' no contexto de programação?",
+        options: ["Um erro que faz com que o programa se comporte de maneira inesperada.", "Um recurso especial do sistema operacional.", "Um tipo de código de otimização.", "Um componente de hardware quebrado."],
+        correctAnswer: "Um erro que faz com que o programa se comporte de maneira inesperada.",
+    },
+    {
+        question: "O que é 'Docker'?",
+        options: ["Um banco de dados NoSQL.", "Um sistema de virtualização para máquinas Windows.", "Uma plataforma para desenvolver, enviar e executar aplicações dentro de contêineres.", "Um framework de teste de software."],
+        correctAnswer: "Uma plataforma para desenvolver, enviar e executar aplicações dentro de contêineres.",
+    },
+    {
+        question: "Qual termo define a ocultação de detalhes de implementação em POO?",
+        options: ["Herança", "Polimorfismo", "Encapsulamento", "Abstração"],
+        correctAnswer: "Encapsulamento",
+    },
+    {
+        question: "Em que ano a linguagem JavaScript foi criada?",
+        options: ["1991", "1995", "2000", "2005"],
+        correctAnswer: "1995",
+    },
+    {
+        question: "O que é um 'middleware' em uma aplicação web?",
+        options: ["A camada de visualização (front-end).", "Um software que atua como um 'cola' entre duas aplicações, passando dados e serviços.", "Um componente de hardware de rede.", "Um tipo de banco de dados."],
+        correctAnswer: "Um software que atua como um 'cola' entre duas aplicações, passando dados e serviços.",
+    },
+    {
+        question: "Qual a finalidade de um 'hash' em criptografia?",
+        options: ["Criptografar dados de forma reversível.", "Transformar dados em uma string de tamanho fixo, irreversível e única (resumo).", "Comprimir arquivos de dados.", "Autenticar usuários em um servidor."],
+        correctAnswer: "Transformar dados em uma string de tamanho fixo, irreversível e única (resumo).",
+    },
+    {
+        question: "Qual a diferença entre '==' e '===' em JavaScript?",
+        options: ["Não há diferença, são sinônimos.", "Ambos comparam valor, mas '===' é mais lento.", "'==' compara valor, '===' compara valor E tipo de dado.", "'===' compara apenas o tipo de dado."],
+        correctAnswer: "'==' compara valor, '===' compara valor E tipo de dado.",
+    },
+    {
+        question: "Qual o conceito de 'imunidade' em Programação Funcional?",
+        options: ["O código ser imune a bugs.", "O código não poder ser executado sem permissão.", "O estado de um objeto ou dado não poder ser alterado após sua criação.", "O uso de variáveis globais."],
+        correctAnswer: "O estado de um objeto ou dado não poder ser alterado após sua criação.",
+    },
+    {
+        question: "Qual o principal benefício de usar um sistema de controle de versão como Git?",
+        options: ["Acelerar a velocidade da aplicação.", "Permitir que desenvolvedores trabalhem em paralelo e rastrear mudanças no código.", "Melhorar o design da interface do usuário.", "Automatizar testes de software."],
+        correctAnswer: "Permitir que desenvolvedores trabalhem em paralelo e rastrear mudanças no código.",
+    },
+    {
+        question: "O que significa 'CRUD' no contexto de desenvolvimento de software?",
+        options: ["Code Review and Update Development", "Create, Read, Update, Delete", "Centralized Resource Usage Data", "Cascading, Rendering, User, Domain"],
+        correctAnswer: "Create, Read, Update, Delete",
+    },
+    {
+        question: "Em Redes, o que define um 'endereço IP'?",
+        options: ["O nome de um domínio web.", "Um identificador numérico único atribuído a um dispositivo em uma rede.", "Um tipo de protocolo de segurança.", "A porta de comunicação de um servidor."],
+        correctAnswer: "Um identificador numérico único atribuído a um dispositivo em uma rede.",
+    },
+    {
+        question: "Qual método do Array em JavaScript é usado para adicionar um ou mais elementos ao *final* do array?",
+        options: ["unshift()", "splice()", "push()", "pop()"],
+        correctAnswer: "push()",
+    },
+    {
+        question: "Qual é o termo para a prática de dividir uma aplicação em partes menores e mais gerenciáveis?",
+        options: ["Virtualização", "Microserviços", "Compilação", "Debug"],
+        correctAnswer: "Microserviços",
+    },
+    {
+        question: "O que é 'SQL Injection'?",
+        options: ["Um método de otimização de consultas SQL.", "Um tipo de banco de dados.", "Um ataque onde comandos SQL maliciosos são inseridos em campos de entrada.", "Um novo padrão para APIs."],
+        correctAnswer: "Um ataque onde comandos SQL maliciosos são inseridos em campos de entrada.",
+    },
+    {
+        question: "Qual framework JavaScript é conhecido por ser usado para criar Single Page Applications (SPAs) e utilizar um 'Virtual DOM'?",
+        options: ["jQuery", "Angular", "Vue.js", "React"],
+        correctAnswer: "React",
+    },
+    {
+        question: "O que é 'escopo' (scope) em programação?",
+        options: ["O tamanho do arquivo de código.", "A área do código onde uma variável ou função é acessível.", "O número de linhas de código em uma função.", "O tempo de execução de um programa."],
+        correctAnswer: "A área do código onde uma variável ou função é acessível.",
+    },
+    {
+        question: "Em C#, qual o tipo de dado usado para armazenar um caractere único?",
+        options: ["string", "char", "int", "boolean"],
+        correctAnswer: "char",
+    },
+    {
+        question: "O que o comando 'JOIN' em SQL realiza?",
+        options: ["Combina duas strings de texto.", "Conecta dois bancos de dados diferentes.", "Combina linhas de duas ou mais tabelas com base em uma coluna relacionada.", "Insere novos dados em múltiplas tabelas."],
+        correctAnswer: "Combina linhas de duas ou mais tabelas com base em uma coluna relacionada.",
+    },
+    {
+        question: "Qual o principal benefício de um 'teste unitário'?",
+        options: ["Garantir que a aplicação funcione em todos os navegadores.", "Testar o sistema completo como um usuário final.", "Verificar que unidades de código individuais (como funções) estão funcionando corretamente.", "Medir a performance do servidor."],
+        correctAnswer: "Verificar que unidades de código individuais (como funções) estão funcionando corretamente.",
+    },
+    {
+        question: "Em Python, o que é um 'Decorator'?",
+        options: ["Uma função para estilizar a interface.", "Um design pattern que permite adicionar comportamento a um objeto existente.", "Um tipo de estrutura de dados.", "Um erro de sintaxe."],
+        correctAnswer: "Um design pattern que permite adicionar comportamento a um objeto existente.",
+    },
+    {
+        question: "Qual a sigla para o formato de troca de dados leve, de fácil leitura e escrita por humanos, e fácil interpretação por máquinas?",
+        options: ["XML", "CSV", "JSON", "YAML"],
+        correctAnswer: "JSON",
+    },
+    {
+        question: "O que é um 'servidor' em um contexto de rede?",
+        options: ["Qualquer computador conectado à internet.", "Um programa que fornece funcionalidades para outros programas ou dispositivos.", "O dispositivo de entrada de dados.", "O cabo de rede principal."],
+        correctAnswer: "Um programa que fornece funcionalidades para outros programas ou dispositivos.",
+    },
+    {
+        question: "Qual a diferença primária entre compilação e interpretação?",
+        options: ["O compilador é mais rápido que o interpretador.", "O compilador converte o código fonte em código de máquina de uma vez; o interpretador traduz e executa linha por linha.", "Apenas linguagens dinâmicas podem ser compiladas.", "Apenas linguagens estáticas podem ser interpretadas."],
+        correctAnswer: "O compilador converte o código fonte em código de máquina de uma vez; o interpretador traduz e executa linha por linha.",
+    },
+    {
+        question: "Em Java, qual palavra-chave é usada para criar uma classe filha que herda de uma classe pai?",
+        options: ["uses", "implements", "extends", "inherits"],
+        correctAnswer: "extends",
+    },
+    {
+        question: "O que é 'SEO' em desenvolvimento web?",
+        options: ["Security Enabled Operations", "Search Engine Optimization", "Server Environment Output", "Standard Element Operation"],
+        correctAnswer: "Search Engine Optimization",
+    },
+    {
+        question: "Qual a estrutura de dados FIFO (First In, First Out)?",
+        options: ["Pilha (Stack)", "Lista Duplamente Ligada.", "Árvore Binária.", "Fila (Queue)"],
+        correctAnswer: "Fila (Queue)",
+    },
+    {
+        question: "O que é 'computação em nuvem' (Cloud Computing)?",
+        options: ["Usar apenas servidores locais.", "A entrega de serviços de computação, incluindo servidores, armazenamento e bancos de dados, pela Internet.", "O desenvolvimento de software para celulares.", "Um novo tipo de linguagem de programação."],
+        correctAnswer: "A entrega de serviços de computação, incluindo servidores, armazenamento e bancos de dados, pela Internet.",
+    },
+    {
+        question: "Em JavaScript moderno, o que a sintaxe 'let' e 'const' adicionaram em relação a 'var'?",
+        options: ["Melhor performance.", "Tipagem estática.", "Escopo de bloco.", "Maior segurança de rede."],
+        correctAnswer: "Escopo de bloco.",
+    },
+    {
+        question: "Qual termo define uma função que retorna uma função?",
+        options: ["Função Anônima.", "Função Pura.", "Função de Ordem Superior (Higher-Order Function).", "Método Construtor."],
+        correctAnswer: "Função de Ordem Superior (Higher-Order Function).",
+    },
+    {
+        question: "O que é um 'token CSRF' e para que é usado em segurança web?",
+        options: ["Um identificador de sessão.", "Um código usado para prevenir ataques Cross-Site Request Forgery.", "Uma chave de criptografia de banco de dados.", "Um parâmetro de URL."],
+        correctAnswer: "Um código usado para prevenir ataques Cross-Site Request Forgery.",
+    },
+    {
+        question: "Qual o principal uso do comando 'WHERE' em SQL?",
+        options: ["Ordenar os resultados de uma consulta.", "Agrupar os resultados.", "Filtrar os registros que serão afetados pela consulta.", "Criar um novo índice."],
+        correctAnswer: "Filtrar os registros que serão afetados pela consulta.",
+    },
+    {
+        question: "O que significa 'responsividade' em design web?",
+        options: ["O site carregar rapidamente.", "O design se adaptar a diferentes tamanhos de tela (desktop, tablet, celular).", "O uso de animações avançadas.", "O código ser escrito em JavaScript."],
+        correctAnswer: "O design se adaptar a diferentes tamanhos de tela (desktop, tablet, celular).",
+    },
+    {
+        question: "Em Python, o que é um 'dicionário' (dictionary)?",
+        options: ["Uma lista ordenada de elementos.", "Uma coleção de pares chave-valor (key-value).", "Um tipo de função anônima.", "Uma estrutura para loops de repetição."],
+        correctAnswer: "Uma coleção de pares chave-valor (key-value).",
+    },
+    {
+        question: "Qual o objetivo do 'load balancer' (balanceador de carga) em uma arquitetura de servidor?",
+        options: ["Aumentar a segurança da rede.", "Distribuir o tráfego da rede entre vários servidores para otimizar o uso de recursos.", "Realizar backup de banco de dados.", "Controlar o acesso a arquivos."],
+        correctAnswer: "Distribuir o tráfego da rede entre vários servidores para otimizar o uso de recursos.",
+    },
+    {
+        question: "Qual a diferença entre 'HTTP' e 'HTTPS'?",
+        options: ["HTTPS usa portas diferentes.", "HTTPS é a versão segura (criptografada) do HTTP, utilizando SSL/TLS.", "HTTP é mais rápido.", "HTTPS é exclusivo para dispositivos móveis."],
+        correctAnswer: "HTTPS é a versão segura (criptografada) do HTTP, utilizando SSL/TLS.",
+    },
+    {
+        question: "O que é 'programação assíncrona'?",
+        options: ["Código que é executado sequencialmente.", "Um modelo onde as tarefas podem ser executadas sem bloquear o thread principal, permitindo que o programa continue.", "Um erro de compilação.", "O uso de múltiplos processadores."],
+        correctAnswer: "Um modelo onde as tarefas podem ser executadas sem bloquear o thread principal, permitindo que o programa continue.",
+    },
+    {
+        question: "Qual o nome do software que transforma o código-fonte em um programa executável?",
+        options: ["Interpretador", "Compilador", "Debugger", "Linker"],
+        correctAnswer: "Compilador",
+    },
+    {
+        question: "O que é um 'schema' em um banco de dados relacional?",
+        options: ["Uma linha de dados.", "A definição da estrutura do banco de dados (tabelas, colunas, relações).", "Um comando de inserção de dados.", "Um tipo de índice."],
+        correctAnswer: "A definição da estrutura do banco de dados (tabelas, colunas, relações).",
+    },
+    {
+        question: "Em POO, o que é 'Polimorfismo'?",
+        options: ["A capacidade de uma classe ter apenas um método.", "A capacidade de diferentes objetos responderem ao mesmo método de maneiras específicas.", "A criação de novos objetos.", "A ocultação de dados."],
+        correctAnswer: "A capacidade de diferentes objetos responderem ao mesmo método de maneiras específicas.",
+    },
+    {
+        question: "Qual a principal desvantagem de usar o armazenamento local (localStorage) em um navegador?",
+        options: ["Só armazena números.", "Não é seguro para informações sensíveis e tem limite de tamanho.", "Expira rapidamente.", "Só pode ser acessado em servidores HTTPS."],
+        correctAnswer: "Não é seguro para informações sensíveis e tem limite de tamanho.",
+    },
+    {
+        question: "Qual a função do comando 'git pull'?",
+        options: ["Enviar mudanças para o repositório remoto.", "Criar um novo branch.", "Baixar e integrar mudanças do repositório remoto ao repositório local.", "Desfazer o último commit."],
+        correctAnswer: "Baixar e integrar mudanças do repositório remoto ao repositório local.",
+    },
+    {
+        question: "O que é um 'API RESTful'?",
+        options: ["Uma API que só usa o protocolo FTP.", "Uma arquitetura de API que utiliza métodos HTTP (GET, POST, PUT, DELETE) e é stateless.", "Uma API de banco de dados.", "Uma API que retorna apenas XML."],
+        correctAnswer: "Uma arquitetura de API que utiliza métodos HTTP (GET, POST, PUT, DELETE) e é stateless.",
+    },
+    {
+        question: "Qual a principal finalidade da sintaxe 'try...catch'?",
+        options: ["Criar um loop de repetição.", "Definir variáveis globais.", "Manipular erros e exceções durante a execução do código.", "Criar testes unitários."],
+        correctAnswer: "Manipular erros e exceções durante a execução do código.",
+    },
+    {
+        question: "O que é 'machine learning' (Aprendizado de Máquina)?",
+        options: ["A criação de sites estáticos.", "Um campo da IA que permite que os sistemas aprendam com dados e tomem decisões sem serem explicitamente programados.", "Um tipo de criptografia avançada.", "O processo de compilação de código."],
+        correctAnswer: "Um campo da IA que permite que os sistemas aprendam com dados e tomem decisões sem serem explicitamente programados.",
+    },
+    {
+        question: "Em CSS, qual propriedade é usada para controlar o espaço *entre* o conteúdo e a borda de um elemento?",
+        options: ["margin", "border-width", "padding", "outline"],
+        correctAnswer: "padding",
+    },
+    {
+        question: "Qual o nome do operador de propagação ('spread operator') em JavaScript?",
+        options: ["##", "...", "->", "&&"],
+        correctAnswer: "...",
+    },
+    {
+        question: "O que é um 'ORM' em desenvolvimento backend?",
+        options: ["Object Rendering Module", "Operational Resource Manager", "Object-Relational Mapping, uma técnica para interagir com o BD usando objetos em vez de SQL puro.", "Online Resource Monitoring"],
+        correctAnswer: "Object-Relational Mapping, uma técnica para interagir com o BD usando objetos em vez de SQL puro.",
+    },
+    {
+        question: "Em linguagens compiladas, qual o termo para o código que é gerado após a compilação, mas que ainda não é código de máquina nativo (ex: em Java)?",
+        options: ["Assembly", "Bytecode", "Código Fonte", "Script"],
+        correctAnswer: "Bytecode",
+    },
+    {
+        question: "O que é 'versionamento semântico' (Semantic Versioning)?",
+        options: ["Usar apenas números inteiros para versões.", "Um sistema de numeração de versão (MAJOR.MINOR.PATCH) que comunica o tipo de alteração no código.", "O uso de datas como números de versão.", "Um padrão de nomeação de arquivos."],
+        correctAnswer: "Um sistema de numeração de versão (MAJOR.MINOR.PATCH) que comunica o tipo de alteração no código.",
+    },
+    {
+        question: "Qual o conceito que garante que um banco de dados mantenha a consistência mesmo após falhas (ACID)?",
+        options: ["Atomicidade", "Isolamento", "Durabilidade", "Consistência"],
+        correctAnswer: "Durabilidade", // Todos são parte, mas Durabilidade é sobre persistência após falhas.
+    },
+    {
+        question: "O que é 'CORS' em desenvolvimento web?",
+        options: ["Content Rendering Style", "Cross-Origin Resource Sharing, um mecanismo para controlar requisições de um domínio para outro.", "Cascading Order Rule Set", "Compiler Output Routine System"],
+        correctAnswer: "Cross-Origin Resource Sharing, um mecanismo para controlar requisições de um domínio para outro.",
+    },
+    {
+        question: "Em Python, qual módulo é comumente usado para criar interfaces gráficas de usuário (GUIs)?",
+        options: ["NumPy", "Django", "Tkinter", "Requests"],
+        correctAnswer: "Tkinter",
+    },
+    {
+        question: "Qual o principal objetivo da 'Agilidade' (Agile) no desenvolvimento de software?",
+        options: ["Garantir que o código não tenha bugs.", "Focar na entrega rápida e incremental de software funcional, com adaptação a mudanças.", "Documentar cada linha de código.", "Apenas grandes empresas podem usar."],
+        correctAnswer: "Focar na entrega rápida e incremental de software funcional, com adaptação a mudanças.",
+    },
+    {
+        question: "O que é 'Big O Notation'?",
+        options: ["Um padrão de nomenclatura de variáveis.", "Uma medida da complexidade (tempo e espaço) de um algoritmo.", "Um erro de sintaxe em Python.", "O nome de um novo framework de banco de dados."],
+        correctAnswer: "Uma medida da complexidade (tempo e espaço) de um algoritmo.",
+    },
+    {
+        question: "Em JavaScript, o que é um 'Closure'?",
+        options: ["Um tipo de loop.", "Uma função interna que tem acesso às variáveis da sua função externa, mesmo após a função externa ter terminado a execução.", "Uma forma de finalizar o programa.", "Um erro de compilação."],
+        correctAnswer: "Uma função interna que tem acesso às variáveis da sua função externa, mesmo após a função externa ter terminado a execução.",
+    },
+    {
+        question: "Qual protocolo é usado para transferir arquivos entre computadores em uma rede?",
+        options: ["HTTP", "SSH", "FTP", "SMTP"],
+        correctAnswer: "FTP",
+    },
+    {
+        question: "Em desenvolvimento de jogos, o que é um 'motor de jogo' (Game Engine)?",
+        options: ["O hardware que roda o jogo.", "Um framework de software que fornece as funcionalidades básicas para criar um jogo.", "O compilador do jogo.", "O banco de dados de pontuação."],
+        correctAnswer: "Um framework de software que fornece as funcionalidades básicas para criar um jogo.",
+    },
+    {
+        question: "O que é 'TypeScript'?",
+        options: ["Uma nova versão do Java.", "Um superset do JavaScript que adiciona tipagem estática opcional.", "Um framework de teste.", "Uma ferramenta de otimização de servidor."],
+        correctAnswer: "Um superset do JavaScript que adiciona tipagem estática opcional.",
+    },
+    {
+        question: "Qual tipo de banco de dados é caracterizado por não usar tabelas com esquemas fixos e ser ideal para grandes volumes de dados não estruturados?",
+        options: ["Relacional (ex: PostgreSQL)", "NoSQL (ex: MongoDB)", "Data Warehouse", "In-Memory"],
+        correctAnswer: "NoSQL (ex: MongoDB)",
+    },
+    {
+        question: "Em desenvolvimento frontend, o que são 'Web Components'?",
+        options: ["Bibliotecas JavaScript populares.", "Um conjunto de padrões W3C que permitem criar elementos HTML personalizados e reutilizáveis.", "Tags HTML obsoletas.", "Uma forma de otimizar imagens."],
+        correctAnswer: "Um conjunto de padrões W3C que permitem criar elementos HTML personalizados e reutilizáveis.",
+    },
+    {
+        question: "O que é o 'Garbage Collector' (Coletor de Lixo)?",
+        options: ["Uma função para limpar o cache do navegador.", "Um processo que automaticamente gerencia e libera memória não utilizada por programas.", "Um antivírus.", "Um recurso do sistema operacional para apagar arquivos."],
+        correctAnswer: "Um processo que automaticamente gerencia e libera memória não utilizada por programas.",
+    },
+    {
+        question: "O que significa o termo 'stateless' (sem estado) em arquitetura de software, especialmente em REST?",
+        options: ["O servidor armazena as informações de sessão do cliente.", "Cada requisição do cliente para o servidor é independente e contém todas as informações necessárias.", "O servidor nunca falha.", "O cliente não pode armazenar cookies."],
+        correctAnswer: "Cada requisição do cliente para o servidor é independente e contém todas as informações necessárias.",
+    },
+    {
+        question: "Qual é o principal uso de 'RegEx' (Expressões Regulares)?",
+        options: ["Criar animações em CSS.", "Projetar interfaces de usuário.", "Buscar, casar e manipular padrões em strings de texto.", "Gerenciar pacotes de software."],
+        correctAnswer: "Buscar, casar e manipular padrões em strings de texto.",
+    },
+    {
+        question: "Qual o comando Git usado para criar um novo branch e mudar para ele?",
+        options: ["git commit -m", "git push", "git checkout -b", "git merge"],
+        correctAnswer: "git checkout -b",
+    },
+    {
+        question: "O que é 'transpilação' em JavaScript?",
+        options: ["O processo de transformar código de uma versão mais nova do JavaScript (ex: ES6+) para uma versão mais antiga (ex: ES5) para compatibilidade.", "A execução de código no servidor.", "O processo de minificação de código.", "A otimização de imagens."],
+        correctAnswer: "O processo de transformar código de uma versão mais nova do JavaScript (ex: ES6+) para uma versão mais antiga (ex: ES5) para compatibilidade.",
+    },
+    {
+        question: "Qual a diferença entre um 'ArrayList' e um 'LinkedList' (Lista Ligada)?",
+        options: ["ArrayList é mais rápido para buscas; LinkedList é mais rápido para inserções/remoções no meio.", "LinkedList é mais rápido para buscas; ArrayList é mais rápido para inserções.", "ArrayList é estático; LinkedList é dinâmico.", "Não há diferença."],
+        correctAnswer: "ArrayList é mais rápido para buscas; LinkedList é mais rápido para inserções/remoções no meio.",
+    },
+    {
+        question: "O que é 'UX' (User Experience) em desenvolvimento de software?",
+        options: ["A estética visual do produto.", "O sistema operacional usado pelo usuário.", "A experiência geral de uma pessoa ao interagir com um produto ou serviço.", "A velocidade de carregamento do site."],
+        correctAnswer: "A experiência geral de uma pessoa ao interagir com um produto ou serviço.",
+    },
+    {
+        question: "Em desenvolvimento web, qual o significado de 'viewport'?",
+        options: ["A área de um elemento HTML.", "O sistema de coordenadas CSS.", "A área visível da página da web de um usuário.", "O nome de um novo framework."],
+        correctAnswer: "A área visível da página da web de um usuário.",
+    },
+    {
+        question: "Qual o principal benefício do uso de 'containers' (Docker, Kubernetes)?",
+        options: ["Apenas acelerar a internet.", "Garantir que a aplicação funcione de forma consistente em qualquer ambiente, empacotando tudo que é necessário.", "Melhorar a qualidade da imagem.", "Aumentar a segurança da senha."],
+        correctAnswer: "Garantir que a aplicação funcione de forma consistente em qualquer ambiente, empacotando tudo que é necessário.",
+    },
+    {
+        question: "O que o 'Node.js' permite que o JavaScript faça?",
+        options: ["Ser compilado para código de máquina.", "Executar no lado do cliente (navegador) apenas.", "Executar no lado do servidor (backend).", "Criar interfaces gráficas."],
+        correctAnswer: "Executar no lado do servidor (backend).",
+    },
+    {
+        question: "Qual o principal protocolo usado para garantir a segurança em transações online?",
+        options: ["TLS/SSL", "FTP", "ICMP", "UDP"],
+        correctAnswer: "TLS/SSL",
+    },
+    {
+        question: "O que é 'autenticação' em segurança de software?",
+        options: ["Verificar se o usuário tem permissão para acessar um recurso.", "Verificar a identidade do usuário (quem ele é).", "Criptografar dados.", "Garantir que os dados não sejam alterados."],
+        correctAnswer: "Verificar a identidade do usuário (quem ele é).",
+    },
+    {
+        question: "Qual o nome da técnica que otimiza as consultas ao banco de dados armazenando os resultados de consultas frequentes na memória?",
+        options: ["Hashing", "Indexing", "Caching", "Sharding"],
+        correctAnswer: "Caching",
+    },
+    {
+        question: "Em Java, qual método é o ponto de entrada para a execução de um programa?",
+        options: ["init()", "start()", "main()", "run()"],
+        correctAnswer: "main()",
+    },
+    {
+        question: "O que é 'clean code' (código limpo)?",
+        options: ["Código sem comentários.", "Código fácil de ler, entender e manter, que faz o que se propõe com eficiência.", "Código que foi totalmente refatorado.", "Código escrito em uma única linguagem."],
+        correctAnswer: "Código fácil de ler, entender e manter, que faz o que se propõe com eficiência.",
+    },
+    {
+        question: "Qual framework Python é frequentemente usado para desenvolvimento web (backend)?",
+        options: ["Pandas", "Django", "Flask", "Ambos Django e Flask"],
+        correctAnswer: "Ambos Django e Flask",
+    },
+    {
+        question: "O que a propriedade CSS 'flex-grow' controla?",
+        options: ["A ordem dos itens flex.", "A capacidade de um item flex crescer para preencher o espaço disponível.", "O alinhamento vertical.", "A largura mínima do item."],
+        correctAnswer: "A capacidade de um item flex crescer para preencher o espaço disponível.",
+    },
+    {
+        question: "O que é um 'deadlock' em sistemas operacionais ou bancos de dados?",
+        options: ["Um erro de compilação.", "Uma situação em que dois ou mais processos estão esperando um pelo outro indefinidamente.", "Um tipo de vírus.", "Um backup de segurança."],
+        correctAnswer: "Uma situação em que dois ou mais processos estão esperando um pelo outro indefinidamente.",
+    },
+    {
+        question: "Qual linguagem de programação é a base do sistema operacional Android?",
+        options: ["Swift", "C#", "Kotlin/Java", "PHP"],
+        correctAnswer: "Kotlin/Java",
+    },
+    {
+        question: "O que é 'WebAssembly' (Wasm)?",
+        options: ["Uma nova tag HTML.", "Um formato de instrução binária para uma máquina virtual baseada em pilha, projetada como alvo de compilação para linguagens de alto nível na web.", "Um novo protocolo de rede.", "Um banco de dados NoSQL."],
+        correctAnswer: "Um formato de instrução binária para uma máquina virtual baseada em pilha, projetada como alvo de compilação para linguagens de alto nível na web.",
+    },
+    {
+        question: "Qual o termo para o ato de converter um tipo de dado em outro (ex: string para int)?",
+        options: ["Parsing", "Type Coercion/Casting", "Looping", "Debugging"],
+        correctAnswer: "Type Coercion/Casting",
+    },
+    {
+        question: "O que o 'AJAX' permite que você faça em desenvolvimento web?",
+        options: ["Manipular o DOM sem JavaScript.", "Trocar dados com um servidor de forma assíncrona, sem recarregar a página inteira.", "Criar gráficos 3D.", "Definir estilos de fonte."],
+        correctAnswer: "Trocar dados com um servidor de forma assíncrona, sem recarregar a página inteira.",
+    },
+    {
+        question: "Em bancos de dados, qual o nome do atributo que identifica unicamente cada registro em uma tabela?",
+        options: ["Chave Estrangeira (Foreign Key)", "Índice", "Chave Primária (Primary Key)", "Campo Nulo"],
+        correctAnswer: "Chave Primária (Primary Key)",
+    },
+    {
+        question: "O que é um 'design pattern' (padrão de projeto)?",
+        options: ["Um template de site HTML.", "Uma solução geral e reutilizável para um problema comum no design de software.", "Um tipo de erro de sintaxe.", "Uma ferramenta de compilação."],
+        correctAnswer: "Uma solução geral e reutilizável para um problema comum no design de software.",
+    },
+    {
+        question: "Qual protocolo é usado para comunicação entre browsers e servidores para chat em tempo real e jogos?",
+        options: ["HTTP", "TCP", "WebSocket", "UDP"],
+        correctAnswer: "WebSocket",
+    },
+    {
+        question: "O que é 'cross-site scripting' (XSS)?",
+        options: ["Uma técnica para otimizar o JavaScript.", "Um tipo de ataque de injeção que permite a um atacante injetar scripts maliciosos em páginas web visualizadas por outros usuários.", "Um novo protocolo de rede.", "Um método de criptografia."],
+        correctAnswer: "Um tipo de ataque de injeção que permite a um atacante injetar scripts maliciosos em páginas web visualizadas por outros usuários.",
+    },
+    {
+        question: "Qual o principal benefício da 'recursividade'?",
+        options: ["Aumentar a velocidade do programa.", "Melhorar a segurança.", "Resolver problemas que podem ser divididos em subproblemas menores, usando a mesma lógica.", "Reduzir o consumo de memória."],
+        correctAnswer: "Resolver problemas que podem ser divididos em subproblemas menores, usando a mesma lógica.",
+    },
+    {
+        question: "O que o comando 'npm' é usado para fazer?",
+        options: ["Navegar na internet.", "Gerenciar pacotes e dependências em projetos Node.js/JavaScript.", "Compilar código HTML.", "Executar testes unitários."],
+        correctAnswer: "Gerenciar pacotes e dependências em projetos Node.js/JavaScript.",
+    },
+    {
+        question: "Em desenvolvimento frontend, o que são 'variáveis CSS' (ou Custom Properties)?",
+        options: ["Variáveis que podem armazenar valores CSS reutilizáveis, definidas com '--'.", "Variáveis que só funcionam em navegadores antigos.", "Variáveis JavaScript que armazenam CSS.", "Um novo tipo de seletor."],
+        correctAnswer: "Variáveis que podem armazenar valores CSS reutilizáveis, definidas com '--'.",
+    },
+    {
+        question: "O que é 'deploy' em desenvolvimento de software?",
+        options: ["O processo de encontrar bugs.", "O processo de compilação do código.", "O processo de mover uma aplicação para um ambiente onde os usuários finais possam acessá-la (produção ou staging).", "O processo de escrever a documentação."],
+        correctAnswer: "O processo de mover uma aplicação para um ambiente onde os usuários finais possam acessá-la (produção ou staging).",
+    },
+    {
+        question: "O que é um 'endpoint' em uma API?",
+        options: ["O ponto onde o cliente recebe o erro.", "O fim da execução do programa.", "Uma URL específica onde uma API pode ser acessada por um cliente.", "O nome do banco de dados."],
+        correctAnswer: "Uma URL específica onde uma API pode ser acessada por um cliente.",
+    },
+    {
+        question: "Qual o propósito do 'SASS' ou 'LESS' em CSS?",
+        options: ["Acelerar o carregamento de imagens.", "Adicionar recursos de programação (variáveis, aninhamento, mixins) ao CSS, que é então pré-processado para CSS padrão.", "Definir o layout da página.", "Gerenciar fontes de texto."],
+        correctAnswer: "Adicionar recursos de programação (variáveis, aninhamento, mixins) ao CSS, que é então pré-processado para CSS padrão.",
+    },
+    {
+        question: "O que é 'desacoplamento' no design de software?",
+        options: ["O processo de separar componentes para que as alterações em um não afetem outros.", "O ato de remover o código legado.", "O uso de variáveis globais.", "O processo de compilar o código."],
+        correctAnswer: "O processo de separar componentes para que as alterações em um não afetem outros.",
+    },
+    {
+        question: "Em Python, o que é um 'tuple' (tupla)?",
+        options: ["Um tipo de dado mutável e ordenado.", "Uma coleção ordenada de elementos, imutável após a criação.", "Uma coleção de pares chave-valor.", "Uma função anônima."],
+        correctAnswer: "Uma coleção ordenada de elementos, imutável após a criação.",
+    },
+    {
+        question: "Qual o nome do software que transforma o código-fonte em um programa executável?",
+        options: ["Interpretador", "Compilador", "Debugger", "Linker"],
+        correctAnswer: "Compilador",
+    },
+    {
+        question: "Qual o principal protocolo usado para garantir a segurança em transações online?",
+        options: ["TLS/SSL", "FTP", "ICMP", "UDP"],
+        correctAnswer: "TLS/SSL",
+    },
+    {
+        question: "Qual é o principal uso do comando 'SELECT' em SQL?",
+        options: ["Inserir novos dados na tabela.", "Modificar dados existentes.", "Recuperar dados de uma ou mais tabelas.", "Excluir dados da tabela."],
+        correctAnswer: "Recuperar dados de uma ou mais tabelas.",
+    },
+    {
+        question: "Em JavaScript, o que é o 'DOM'?",
+        options: ["Um método para manipular strings.", "Document Object Model, uma interface de programação para documentos HTML e XML.", "Um tipo de erro assíncrono.", "Uma estrutura de dados para armazenar pares de chave-valor."],
+        correctAnswer: "Document Object Model, uma interface de programação para documentos HTML e XML.",
+    },
+    {
+        question: "O que é 'computação em nuvem' (Cloud Computing)?",
+        options: ["Usar apenas servidores locais.", "A entrega de serviços de computação, incluindo servidores, armazenamento e bancos de dados, pela Internet.", "O desenvolvimento de software para celulares.", "Um novo tipo de linguagem de programação."],
+        correctAnswer: "A entrega de serviços de computação, incluindo servidores, armazenamento e bancos de dados, pela Internet.",
+    },
+    {
+        question: "O que o 'git' é usado para fazer?",
+        options: ["Executar código JavaScript no navegador.", "Gerenciar banco de dados.", "Controlar o versionamento de código-fonte.", "Compilar programas C++."],
+        correctAnswer: "Controlar o versionamento de código-fonte.",
+    },
+    {
+        question: "O que significa 'CRUD' no contexto de desenvolvimento de software?",
+        options: ["Code Review and Update Development", "Create, Read, Update, Delete", "Centralized Resource Usage Data", "Cascading, Rendering, User, Domain"],
+        correctAnswer: "Create, Read, Update, Delete",
+    },
+    {
+        question: "Qual a principal função do CSS?",
+        options: ["Criar a estrutura da página.", "Definir a lógica do servidor.", "Definir a apresentação e o estilo dos elementos HTML.", "Gerenciar o estado da aplicação."],
+        correctAnswer: "Definir a apresentação e o estilo dos elementos HTML.",
+    },
+    {
+        question: "Qual protocolo é usado para enviar e-mails?",
+        options: ["HTTP", "FTP", "SMTP", "POP3"],
+        correctAnswer: "SMTP",
+    },
+    {
+        question: "Em segurança, o que é um ataque 'DDoS'?",
+        options: ["Uma tentativa de acessar um servidor usando força bruta.", "Um ataque que inunda um servidor com tráfego para torná-lo inacessível.", "Uma forma de roubar dados de um usuário.", "Um vírus que se espalha por e-mail."],
+        correctAnswer: "Um ataque que inunda um servidor com tráfego para torná-lo inacessível.",
+    },
+    {
+        question: "Qual paradigma de programação se concentra em 'objetos' que contêm dados e métodos?",
+        options: ["Programação Funcional.", "Programação Orientada a Objetos (POO).", "Programação Estruturada.", "Programação Lógica."],
+        correctAnswer: "Programação Orientada a Objetos (POO).",
+    },
+    {
+        question: "Em linguagens orientadas a objetos, o que é 'Herança'?",
+        options: ["O ato de criar uma nova instância de um objeto.", "Um mecanismo que permite que uma classe herde propriedades e métodos de outra classe.", "O processo de esconder detalhes de implementação.", "A capacidade de uma função ou método se comportar de diferentes maneiras."],
+        correctAnswer: "Um mecanismo que permite que uma classe herde propriedades e métodos de outra classe.",
+    },
+    {
+        question: "O que é 'Docker'?",
+        options: ["Um banco de dados NoSQL.", "Um sistema de virtualização para máquinas Windows.", "Uma plataforma para desenvolver, enviar e executar aplicações dentro de contêineres.", "Um framework de teste de software."],
+        correctAnswer: "Uma plataforma para desenvolver, enviar e executar aplicações dentro de contêineres.",
+    },
+    {
+        question: "O que significa a sigla 'API' em desenvolvimento de software?",
+        options: ["Advanced Programming Interface", "Application Protocol Integration", "Application Programming Interface", "Automated Process Interaction"],
+        correctAnswer: "Application Programming Interface",
+    },
+    {
+        question: "Qual a função do 'DNS' em uma rede?",
+        options: ["Gerenciar senhas de usuário.", "Traduzir nomes de domínio em endereços IP.", "Aumentar a velocidade de download.", "Criptografar dados de navegação."],
+        correctAnswer: "Traduzir nomes de domínio em endereços IP.",
+    },
+    {
+        question: "Qual o principal objetivo da linguagem HTML?",
+        options: ["Estilizar páginas web.", "Definir a estrutura e o conteúdo de uma página web.", "Adicionar lógica de programação ao servidor.", "Gerenciar banco de dados."],
+        correctAnswer: "Definir a estrutura e o conteúdo de uma página web.",
+    },
+    {
+        question: "Em desenvolvimento web, qual linguagem é responsável por adicionar interatividade e comportamento a uma página?",
+        options: ["HTML", "CSS", "Python", "JavaScript"],
+        correctAnswer: "JavaScript",
+    },
+    {
+        question: "O que é um 'framework' em programação?",
+        options: ["Um tipo de erro de compilação.", "Uma biblioteca de funções para realizar cálculos matemáticos.", "Uma estrutura de software que serve como base para construir aplicações.", "Um dispositivo de armazenamento de dados."],
+        correctAnswer: "Uma estrutura de software que serve como base para construir aplicações.",
+    },
+    {
+        question: "O que é 'código aberto' (open-source)?",
+        options: ["Software que requer licença paga para uso.", "Código fonte que é público e pode ser modificado e distribuído.", "Um tipo de vírus de computador.", "Uma rede de computadores fechada e privada."],
+        correctAnswer: "Código fonte que é público e pode ser modificado e distribuído.",
+    },
+    {
+        question: "Qual o nome do sistema de gerenciamento de banco de dados que utiliza tabelas, colunas e linhas?",
+        options: ["MongoDB", "Redis", "MySQL", "Cassandra"],
+        correctAnswer: "MySQL",
+    },
+    {
+        question: "O que é a metodologia 'Scrum'?",
+        options: ["Um framework ágil para gerenciar projetos complexos.", "Um tipo de teste de software.", "Uma ferramenta de debug.", "Um padrão de design de software."],
+        correctAnswer: "Um framework ágil para gerenciar projetos complexos.",
+    },
+    {
+        question: "Qual a finalidade de um 'index' (índice) em um banco de dados?",
+        options: ["Armazenar dados binários.", "Acelerar a recuperação de linhas, agindo como um sumário de um livro.", "Criptografar as colunas.", "Definir as permissões de usuário."],
+        correctAnswer: "Acelerar a recuperação de linhas, agindo como um sumário de um livro.",
+    },
+    {
+        question: "Em C, qual o principal uso de 'ponteiros'?",
+        options: ["Definir o tipo de dado.", "Armazenar o endereço de memória de uma variável ou função.", "Criar loops.", "Implementar herança."],
+        correctAnswer: "Armazenar o endereço de memória de uma variável ou função.",
+    },
+    {
+        question: "O que é 'CI/CD' em DevOps?",
+        options: ["Client-Side Integration / Client-Side Deployment.", "Continuous Integration / Continuous Delivery/Deployment.", "Centralized Indexing / Controlled Data.", "Code Inspection / Code Distribution."],
+        correctAnswer: "Continuous Integration / Continuous Delivery/Deployment.",
+    },
+    {
+        question: "Qual a função do 'try-finally' em um bloco de tratamento de exceção?",
+        options: ["Executar o código apenas se ocorrer um erro.", "Executar o código contido no bloco 'finally' independentemente de ter ocorrido uma exceção ou não.", "Apenas definir variáveis.", "Criar um loop infinito."],
+        correctAnswer: "Executar o código contido no bloco 'finally' independentemente de ter ocorrido uma exceção ou não.",
+    },
+    {
+        question: "Em desenvolvimento web, o que são 'cookies'?",
+        options: ["Erros no console do navegador.", "Pequenos arquivos de texto armazenados no computador do usuário para rastrear informações de sessão e usuário.", "Um tipo de tag HTML obsoleta.", "Bibliotecas JavaScript para animação."],
+        correctAnswer: "Pequenos arquivos de texto armazenados no computador do usuário para rastrear informações de sessão e usuário.",
+    },
+    {
+        question: "O que é 'TDD' (Test-Driven Development)?",
+        options: ["Uma metodologia onde os testes são escritos DEPOIS do código.", "Um processo de desenvolvimento onde os testes são escritos ANTES do código funcional.", "Uma ferramenta de debug de servidor.", "Um tipo de banco de dados."],
+        correctAnswer: "Um processo de desenvolvimento onde os testes são escritos ANTES do código funcional.",
+    },
+    {
+        question: "O que o comando 'DELETE FROM' em SQL faz?",
+        options: ["Remove uma tabela inteira do banco de dados.", "Exclui registros (linhas) de uma tabela.", "Modifica dados existentes.", "Cria um backup dos dados."],
+        correctAnswer: "Exclui registros (linhas) de uma tabela.",
+    },
+    {
+        question: "Em React, o que são 'Hooks'?",
+        options: ["Funções JavaScript que permitem usar state e outros recursos do React em componentes de classe.", "Métodos de ciclo de vida de componentes.", "Funções JavaScript que permitem usar state e outros recursos do React em componentes funcionais.", "Ferramentas de teste de unidade."],
+        correctAnswer: "Funções JavaScript que permitem usar state e outros recursos do React em componentes funcionais.",
+    },
 ];
